@@ -1,3 +1,5 @@
+package com.example.louezvotrevoiture.fr.web;
+
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -6,6 +8,4 @@ public class Rent {
     public String hello() {
     return "hello";
     }
-
-    
 }
