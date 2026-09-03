@@ -11,10 +11,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
-import org.springframework.http.HttpStatus;
 
-import com.example.louezvotrevoiture.fr.data.Car;
-import com.example.louezvotrevoiture.fr.data.Dates;
+import com.example.louezvotrevoiture.fr.entities.Car;
+import com.example.louezvotrevoiture.fr.entities.Dates;
+
+import org.springframework.http.HttpStatus;
 
 @RestController
 public class CarRental {

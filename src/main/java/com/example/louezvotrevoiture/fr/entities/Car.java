@@ -1,6 +1,12 @@
-package com.example.louezvotrevoiture.fr.data;
+package com.example.louezvotrevoiture.fr.entities;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Car {
+
+    @Id
     private String plate;
     private String marque;
     private int price;

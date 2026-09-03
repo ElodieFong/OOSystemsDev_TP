@@ -1,4 +1,4 @@
-package com.example.louezvotrevoiture.fr.data;
+package com.example.louezvotrevoiture.fr.entities;
 
 public class Dates {
 
