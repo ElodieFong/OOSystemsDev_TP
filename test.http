@@ -1,0 +1,20 @@
+### Get all cars
+GET http://localhost:8080/cars
+
+### Get one car
+GET http://localhost:8080/cars/11AA22
+
+### Get a car that does not exist
+GET http://localhost:8080/cars/999999
+
+### Rent a car
+PUT http://localhost:8080/cars/11AA22?rent=true&namePerson=John
+Content-Type: application/json
+
+{
+    "begin": "11/11/2026",
+    "end": "01/01/2027"
+}
+
+### Return a car
+PUT http://localhost:8080/cars/11AA22?rent=false

@@ -2,6 +2,6 @@ package com.example.louezvotrevoiture.fr.entities;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface CarRepository extends CrudRepository<Car, Long> {
-    Car findByPlate(String plate);
+public interface PersonRepository extends CrudRepository<Person, Long> {
+    Person findByName(String name);
 }

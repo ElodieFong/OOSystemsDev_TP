@@ -1,15 +1,10 @@
 package com.example.louezvotrevoiture.fr.entities;
 
-public class Dates {
+public class ContractInfo {
     private String begin;
     private String end;
 
-    public Dates() {
-    }
-
-    public Dates(String begin, String end) {
-        this.begin = begin;
-        this.end = end;
+    public ContractInfo() {
     }
 
     public String getBegin() {
